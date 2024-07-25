@@ -1,6 +1,6 @@
 {
-  "name": "@luxfi/wc-iso-crypto",
-  "version": "1.8.10",
+  "name": "@luxwallet/wc-iso-crypto",
+  "version": "1.8.11",
   "description": "Isomorphic Crypto for WalletConnect",
   "publishConfig": {
     "access": "public"
