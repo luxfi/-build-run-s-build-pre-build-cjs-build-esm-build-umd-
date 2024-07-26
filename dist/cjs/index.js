@@ -4,7 +4,7 @@ exports.decrypt = exports.encrypt = exports.verifyHmac = exports.generateKey = v
 const tslib_1 = require("tslib");
 const crypto = tslib_1.__importStar(require("@walletconnect/crypto"));
 const encoding = tslib_1.__importStar(require("@walletconnect/encoding"));
-const wc_utils_1 = require("@luxfi/wc-utils");
+const wc_utils_1 = require("@luxwallet/wc-utils");
 function generateKey(length) {
     return tslib_1.__awaiter(this, void 0, void 0, function* () {
         const _length = (length || 256) / 8;

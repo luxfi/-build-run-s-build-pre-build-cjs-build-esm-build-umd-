@@ -1,6 +1,6 @@
 import * as crypto from "@walletconnect/crypto";
 import * as encoding from "@walletconnect/encoding";
-import { convertArrayBufferToBuffer, convertBufferToArrayBuffer } from "@luxfi/wc-utils";
+import { convertArrayBufferToBuffer, convertBufferToArrayBuffer } from "@luxwallet/wc-utils";
 export async function generateKey(length) {
     const _length = (length || 256) / 8;
     const bytes = crypto.randomBytes(_length);
